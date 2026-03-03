@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
     <title>Exemplo de Página HTML</title>
     <style>
         body {
@@ -13,56 +11,15 @@
             margin: 0;
             padding: 0;
         }
-
         header {
-            background: linear-gradient(45deg, rgb(10, 119, 10), rgb(11, 231, 176));
+            background-color: #4CAF50;
             color: white;
             padding: 15px;
             text-align: center;
-            display: flex;
-            align-items: center;
-            background-color: #f4f4f9;
-            justify-content: space-around;
-            gap: 5rem;
         }
-
-        header div {
-            display: flex;
-            margin-top: 2rem;
-            gap: 3rem;
-            justify-content: center;
-            padding: 0.6rem;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(3rem);
-            -webkit-backdrop-filter: blur(10rem);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 15px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 2rem;
-        }
-
-        header a {
-            list-style: none;
-            text-decoration: none;
-            color: rgb(255, 255, 255);
-            transition: color 0.5s ease;
-        }
-
-        header a:hover {
-            color: rgb(121, 255, 88);
-        }
-
-        header img {
-            width: 5rem;
-            border-radius: 50%;
-        }
-
         main {
             padding: 20px;
-            margin-top: 10rem;
-
         }
-
         footer {
             background-color: #333;
             color: white;
@@ -72,7 +29,6 @@
             bottom: 0;
             width: 100%;
         }
-
         .btn {
             background-color: #4CAF50;
             color: white;
@@ -82,109 +38,38 @@
             text-align: center;
             display: inline-block;
         }
-
         .btn:hover {
             background-color: #45a049;
         }
-        .links {
-            color: white;
-            text-decoration: none;
-            padding: 5px 10px;
-        }
-
-        .links:hover {
-            color: #18621a;
-        }
-
-        .lis{
-            list-style-type: none;
-        }
-
-        .first-part{
-            display: flex;
-            justify-content: space-around;
-            width: 80%;
-            margin: auto;
-        }
-        .second-part{
-            display: flex;
-            justify-content: space-around;
-            width: 80%;
-            margin: auto;
-        }
-        .image-box1{
-            margin-right: 30px;
-        }
-        .image{
-            width: 300px;
-            border-radius: 30px;
-        }
-        .cherie{
-            align-content: center;
-        }
-        .carlinhos{
-            align-content: center;
-        }
-
     </style>
 </head>
-
 <body>
 
-    <header>
-        <img src="/assets/logo.png" alt="logo">
-        <div>
-            <a href="#sec1" class="botao_header">Sobre o Projeto</a>
-            <a href="#sec2" class="botao_header">Funcionalidades</a>
-            <a href="#sec3" class="botao_header">Footer</a>
-        </div>
-        <img src="/assets/Carlinhos.jpeg" alt="Carlinhos">
+<header>
+    <h1>Bem-vindo ao Projeto de Pull Request</h1>
+</header>
 
+<main>
+    <section>
+        <h2>Sobre o Projeto</h2>
+        <p>Este projeto tem como objetivo ensinar o fluxo de trabalho do GitHub, incluindo a criação de branches, commits, Pull Requests e revisões de código.</p>
+    </section>
 
-    </header>
+    <section>
+        <h2>Funcionalidades</h2>
+        <ul>
+            <li>Visualização de páginas HTML simples.</li>
+            <li>Interação com formulários.</li>
+            <li>Design simples e responsivo.</li>
+        </ul>
+    </section>
 
-    <main>
-        
-        <section class="first-part">
-            <div class="image-box1">
-                <img class="image" src="assets/carlinhos2.jpeg" alt="Foto do Carlinhos" />
-            </div>
-            <div class="carlinhos">
-                <h2>Sobre o Carlinhos</h2>
-                <p>
-                Carlinhos é um professor incrível, ótimo conselheiro/companheiro e
-                ama umas fofocas, amando ainda mais irritar Nicolas Isepe Paz.
-                </p>
-            </div>
-        </section>
-
-        <section class="second-part">
-            <div class="cherie">
-                <h2>Cherie</h2>
-                <p>Cherrie é uma cachorra muito fofa da espécie Salsicha!</p>
-            </div>
-            <div class="image-box2">
-                <img class="image" src="assets/cherie.jpeg" alt="Cherry, a Salsicha">
-            </div>
-        </section>
-
+    <button class="btn">Clique aqui para aprender mais!</button>
+</main>
 
 <footer>
-    <div style="display: flex; width: 100%;">
-        <ul style="display: flex; justify-content: space-evenly; width: 100%;">
-            <li class="lis" ><a class="links" target="_blank" href="https://www.instagram.com/ana.blefari/" >Ana</a></li>
-            <li class="lis" ><a class="links" target="_blank" href="https://www.instagram.com/davinc.29/" >Davi</a></li>
-            <li class="lis" ><a class="links" target="_blank" href="https://www.instagram.com/dbent0_/" >David</a></li>
-            <li class="lis" ><a class="links" target="_blank" href="https://www.instagram.com/g.kenzoo/" >Gustavo</a></li>
-            <li class="lis" ><a class="links" target="_blank" href="https://www.instagram.com/raphaxzn/" >Raphaely</a></li>
-        </ul> 
-    </div>
-
-    <div>
-        <p>&copy; 2025 Projeto GitHub PR - Todos os direitos reservados.</p>
-    </div>
+    <p>&copy; 2025 Projeto GitHub PR - Todos os direitos reservados.</p>
 </footer>
 
 </body>
-
 </html>
